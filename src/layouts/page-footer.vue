@@ -1,7 +1,6 @@
 <script setup lang="ts"></script>
-
 <template>
-  <div>
-    <router-view />
-  </div>
+  <slot> </slot>
 </template>
+
+<style module scoped></style>
