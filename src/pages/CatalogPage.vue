@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
-
 const id = "123";
-
 onMounted(() => {
   console.log("Catalog mounted!");
 });

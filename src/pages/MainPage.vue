@@ -1,11 +1,6 @@
 <script setup lang="ts">
-import { onMounted } from "vue";
 import { PageTemplate, Header } from "../layouts";
 import { AdBlock } from "../components";
-
-onMounted(() => {
-  console.log("Main mounted!");
-});
 </script>
 <template>
   <PageTemplate>

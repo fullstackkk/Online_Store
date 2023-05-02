@@ -1,6 +1,6 @@
-import {createWebHistory , createRouter} from 'vue-router'
-import * as pages from '../pages'
-
+import { createWebHistory, createRouter } from "vue-router";
+import * as pages from "../pages";
+ 
 const routes = [    
         { path: '/', component: pages.MainPage },
         { path: '/catalog', component: pages.CatalogPage },
@@ -10,11 +10,11 @@ const routes = [
         { path: '/favorites', component: pages.FavoritesPage },
 ]
 const history = createWebHistory()
+ 
 
 const router = createRouter({
-    history: history,
-    routes,  
-})
+  history: history,
+  routes,
+});
 
-
-export default router
+export default router;
