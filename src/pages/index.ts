@@ -1,11 +1,5 @@
-export { default as BadroomPage } from "./BadroomPage.vue";
-export { default as LivingRoomPage } from "./LivingRoomPage.vue";
-export { default as DiningRoomPage } from "./DiningRoomPage.vue";
-export { default as OfficePage } from "./OfficePage.vue";
-export { default as KitchenPage } from "./KitchenPage.vue";
-export { default as SofaPage } from "./SofaPage.vue";
-export { default as HomePage } from "./HomePage.vue";
-export { default as SupportPage } from "./SupportPage.vue";
-export { default as PrivacyPolicyPage } from "./PrivacyPolicyPage.vue";
-export { default as TermsAndConditionsPage } from "./TermsAndConditionsPage.vue";
-export { default as BasketPage } from "./BasketPage.vue";
+export { default as MainPage } from "./MainPage.vue";
+export { default as CatalogPage } from "./CatalogPage.vue";
+export { default as ProductPage } from "./ProductPage.vue";
+export { default as BagPage } from "./BagPage.vue";
+export { default as ProfilePage } from "./ProfilePage.vue";
